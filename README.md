@@ -5,7 +5,7 @@ To build a model using a convolutional neural network that can classify lung inf
 
 ### Dataset Description:
 
-Dataset URL: bit.ly/3DYvFLG
+Link to Dataset : <a href="bit.ly/3DYvFLG" target="_blank">dataset</a>
 <BR>
 The dataset contains three different classes, including healthy, type 1 disease, and type 2 disease.
 <BR>
@@ -22,7 +22,7 @@ Test folder: This folder has images for testing the model, which is divided into
 
 <B>Build 3 CNN model with:</B>
 
-<u>CNN Architecture:</u>
+<ins> CNN Architecture: </ins>
 
 - Add convolutional layers with different filters, max pool layers, dropout layers, and batch normalization layers
 - Use Relu as an activation function
@@ -35,7 +35,7 @@ Test folder: This folder has images for testing the model, which is divided into
 - Observe the precision, recall the F1-score for all classes for both grayscale and color models, and determine if the model’s classes are good
 <BR>
 
-<u>Transfer learning using mobile net:</u>
+<ins>Transfer learning using mobile net:</ins>
 <BR>
 - Prepare data for the pre-trained mobile net model, with color mode as RGB
 - Create an instance of a mobile net pre-trained model
@@ -51,7 +51,7 @@ Test folder: This folder has images for testing the model, which is divided into
 and color models, and determine if the model’s classes are good
 <BR>
 
-<u>Transfer Learning using Densenet121:</u>
+<ins>Transfer Learning using Densenet121:</ins>
 <BR>
 - Prepare the dataset for the transfer learning algorithm using Densenet121 with the image size as 224x224x3
 - Freeze the top layers of the pre-trained model
@@ -65,3 +65,10 @@ and color models, and determine if the model’s classes are good
 - Plot the training and validation accuracy, and the loss
 - Observe the precision, recall the F1-score for all classes for both grayscale
 and color models, and determine if the model’s classes are good
+
+### Setup and Installation:
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+pip list
+```
