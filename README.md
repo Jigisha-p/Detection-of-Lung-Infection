@@ -5,7 +5,7 @@ To build a model using a convolutional neural network that can classify lung inf
 
 ### Dataset Description:
 
-Link to Dataset : <a href="bit.ly/3DYvFLG" target="_blank">dataset</a>
+Link to Dataset : <a href="https://shorturl.at/nrSV4" target="_blank">dataset</a>
 <BR>
 The dataset contains three different classes, including healthy, type 1 disease, and type 2 disease.
 <BR>
